@@ -10,7 +10,7 @@ futures-core = "0.3.25"
 http = "0.2.8"
 prost = "0.11.5"
 tokio = { version = "1.23.0", features = ["macros", "rt-multi-thread"] }
-tonic = "0.8.3"
+tonic = {git="https://github.com/leejw51crypto/tonic.git", branch="cronos"}
 tonic-web = "0.5.0"
 tower-http = { version = "0.3.5", default-features = false, features = [
     "cors",
